@@ -6,7 +6,7 @@ import Sidebar from "./components/Sidebar";
 import CreatePost from "./components/CreatePost";
 import PostList from "./components/PostList";
 import PostListProvider from "./store/post-list-store";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (

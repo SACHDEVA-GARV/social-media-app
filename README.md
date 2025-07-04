@@ -13,7 +13,7 @@ A modern, responsive social media feed built with **React**, **React Router**, *
 ##  Technologies & Tools Used
 
 - **React**: Component-based UI library for building interactive interfaces.
-- **React Router**: For client-side routing and navigation.
+- **React Router (HashRouter):** Used for client-side routing and to ensure all routes work correctly on GitHub Pages static hosting.
 - **Bootstrap**: For responsive and modern UI styling.
 - **React Icons**: For scalable vector icons (e.g., delete/trash icon).
 - **Vite**: Fast development server and build tool.
@@ -83,6 +83,8 @@ A modern, responsive social media feed built with **React**, **React Router**, *
 
 ##  Notes
 
+- **Routing on GitHub Pages:**  
+  This app uses `HashRouter` from React Router so that all routes work even after refreshing or direct navigation, which is required for static hosting like GitHub Pages.
 - **Posts are not persisted:**  
   New posts are stored in the app state only. Refreshing the page will reload the original posts from the DummyJSON API and remove your new posts (since the API is read-only).
 - **API Used:**  
@@ -122,4 +124,3 @@ This project is for educational and portfolio purposes.
 
 ---
 
-**Showcase your React, routing, state management, and UI skills with this project!**
