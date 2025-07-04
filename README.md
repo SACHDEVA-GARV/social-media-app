@@ -6,7 +6,7 @@ A modern, responsive social media feed built with **React**, **React Router**, *
 
 ##  Live Demo
 
-[Live Demo Link Here](#) 
+[Live Demo Link Here](https://sachdeva-garv.github.io/social-media-app/#/) 
 
 ---
 
